@@ -11,7 +11,7 @@ section.game{
     display: flex;
     flex-direction: column;
     height: 80vh;
-    background-image: url("/assets/img/city.png");
+    background-image: url("../assets/img/city.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

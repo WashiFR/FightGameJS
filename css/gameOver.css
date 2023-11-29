@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/img/city.png");
+    background-image: url("../assets/img/city.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

@@ -20,7 +20,7 @@ function UpdateStartButton() {
             startBtn.innerHTML = "FIGHT";
             console.log(game);
             startBtn.addEventListener("click", function () {
-                window.location.href = "index.html";
+                window.location.href = "game.html";
             });
         });
     }

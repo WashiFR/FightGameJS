@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ### Section Choice ### */
+
+body{
+    background: rgb(152,167,184);
+    background: radial-gradient(circle, rgba(152,167,184,1) 0%, rgba(28,42,58,1) 100%);
+    height: 100vh;
+}
+
+section.sprites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+section.sprites > div.sprite{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+#player1{
+    transform: scaleX(-1);
+}
+
+span{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1c2a3a;
+    border-radius: 8px;
+    border: white 2px solid;
+    width: 100%;
+    text-align: center;
+}
+
+section.sprites > div.start{
+    width: 20%;
+    height: auto;
+}
+
+#start-button{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #1c2a3a;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+section.sprites > div.sprite > img{
+    width: 100%;
+}
+
+/* ### Section buttons ### */
+
+section.buttons{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+
+section.buttons > div{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+}
+
+section.buttons > div > button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #1c2a3a;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- js -->
+    <script type="module" src="../js/main.js"></script>
+    <title>Fight Game</title>
+</head>
+<body>
+    <!-- Jeu -->
+    <section class="game">
+        <div class="progress-container">
+            <div class="player1-stats">
+                <progress id="health-bar-player1" class="health-bar" value="0" max="0"></progress>
+                <progress id="mana-bar-player1" class="mana-bar" value="0" max="0"></progress>
+            </div>
+            <span id="nb-turn">0</span>
+            <div class="player2-stats">
+                <progress id="health-bar-player2" class="health-bar" value="0" max="0"></progress>
+                <progress id="mana-bar-player2" class="mana-bar" value="0" max="0"></progress>
+            </div>
+        </div>
+        <div class="players-container">
+            <div class="player">
+                <img class="sprite" id="player1" src=""></img>
+                <video class="video" id="video1" src="" controls autoplay muted></video>
+            </div>
+            <div class="player border">
+                <img class="sprite" id="player2" src=""></img>
+                <video class="video" id="video2" src="" controls autoplay muted></video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actions -->
+    <section class="actions">
+        <div class="buttons-container">
+            <div class="buttons">
+                <button id="btn-attack">Attaquer</button>
+                <button id="btn-special-attack">Attaque spéciale</button>
+            </div>
+            <div class="buttons">
+                <button id="btn-mana">Recharger Mana</button>
+                <button id="btn-ultimate">Attaque Ultime</button>
+            </div>
+        </div>
+        <div id="game-info">
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>

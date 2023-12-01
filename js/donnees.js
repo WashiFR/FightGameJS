@@ -10,7 +10,7 @@ import {Fighter} from "./classes/Fighter.js";
  */
 const path = {
     img: './assets/img/',
-    video: './assets/video/'
+    video: '../assets/video/'
 }
 
 /**

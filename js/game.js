@@ -99,8 +99,8 @@ export function Init() {
     manaBarPlayer1.max = game.player1.maxMana;
     manaBarPlayer2.max = game.player2.maxMana;
 
-    spritePlayer1.src = game.player1.sprite;
-    spritePlayer2.src = game.player2.sprite;
+    spritePlayer1.src = '.' + game.player1.sprite;
+    spritePlayer2.src = '.' + game.player2.sprite;
 
     btnAttack.addEventListener('click', Attack);
     btnSpeAttack.addEventListener('click', SpecialAttack);

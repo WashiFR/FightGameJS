@@ -9,8 +9,8 @@ import {Fighter} from "./classes/Fighter.js";
  * @type {{img: string, video: string}}
  */
 const path = {
-    img: '/assets/img/',
-    video: '/assets/video/'
+    img: './assets/img/',
+    video: './assets/video/'
 }
 
 /**
